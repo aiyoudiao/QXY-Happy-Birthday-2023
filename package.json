@@ -1,0 +1,29 @@
+{
+  "name": "QXY-Happy-Birthday-2023",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Make a small gift 🎁 to wish her a happy birthday 🎂. 做一个祝福她生日🎂快乐的小礼物🎁。",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/aiyoudiao/QXY-Happy-Birthday-2023/issues"
+  },
+  "homepage": "https://aiyoudiao.github.io/QXY-Happy-Birthday-2023",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyoudiao/QXY-Happy-Birthday-2023.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "vite": "^3.1.0"
+  }
+}
